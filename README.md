@@ -27,7 +27,7 @@ TO BE UPDATED
   <tr>
     <td>First AI-LUT</td>
     <td rowspan="8">Image<br>enhancement<br>/retouching<br></td>
-    <td>A3DLUT</td>
+    <td><b>A3DLUT</b></td>
     <td>20-TPAMI</td>
     <td><a href="https://ieeexplore.ieee.org/abstract/document/9206076" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/HuiZeng/Image-Adaptive-3DLUT" target="_blank" rel="noopener noreferrer">code</a></td>
@@ -39,7 +39,7 @@ TO BE UPDATED
   </tr>
   <tr>
     <td>C</td>
-    <td>SA-LUT-Nets</td>
+    <td><b>SA-LUT-Nets</b></td>
     <td>ICCV'21</td>
     <td><a href="https://ieeexplore.ieee.org/document/9710177" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td>-</td>
@@ -50,7 +50,7 @@ TO BE UPDATED
   </tr>
   <tr>
     <td>E<br></td>
-    <td>CLUT-Net</td>
+    <td><b>CLUT-Net</b></td>
     <td rowspan="2">MM'22</td>
     <td><a href="https://dl.acm.org/doi/10.1145/3503161.3547879" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/Xian-Bei/CLUT-Net/" target="_blank" rel="noopener noreferrer">code</a></td>
@@ -61,7 +61,7 @@ TO BE UPDATED
   </tr>
   <tr>
     <td>E</td>
-    <td>F2D-LUT</td>
+    <td><b>F2D-LUT</b></td>
     <td><a href="https://dl.acm.org/doi/abs/10.1145/3503161.3548325" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/shedy-pub/I2VEnhance" target="_blank" rel="noopener noreferrer">code</a></td>
     <td>6&times;3</td>
@@ -70,7 +70,7 @@ TO BE UPDATED
   </tr>
   <tr>
     <td>N</td>
-    <td>AdaInt</td>
+    <td><b>AdaInt</b></td>
     <td>CVPR'22</td>
     <td><a href="https://ieeexplore.ieee.org/abstract/document/9879870" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/ImCharlesY/AdaInt" target="_blank" rel="noopener noreferrer">code</a></td>
@@ -82,7 +82,7 @@ TO BE UPDATED
   </tr>
   <tr>
     <td>N</td>
-    <td>SepLUT</td>
+    <td><b>SepLUT</b></td>
     <td>ECCV'22</td>
     <td><a href="https://link.springer.com/chapter/10.1007/978-3-031-19797-0_12" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/ImCharlesY/SepLUT" target="_blank" rel="noopener noreferrer">code</a></td>
@@ -93,7 +93,7 @@ TO BE UPDATED
   </tr>
   <tr>
     <td>C<br></td>
-    <td>DualBLN</td>
+    <td><b>DualBLN</b></td>
     <td>ACCV'22</td>
     <td><a href="https://link.springer.com/chapter/10.1007/978-3-031-26313-2_11" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/120326/DualBLN" target="_blank" rel="noopener noreferrer">code</a></td>
@@ -104,7 +104,7 @@ TO BE UPDATED
   </tr>
   <tr>
     <td>C</td>
-    <td>4D-LUT</td>
+    <td><b>4D-LUT</b></td>
     <td>23-TIP</td>
     <td><a href="https://ieeexplore.ieee.org/document/10226494" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td>-</td>
@@ -116,7 +116,7 @@ TO BE UPDATED
   <tr>
     <td>E</td>
     <td>Photorealistic<br>Style Transfer</td>
-    <td>NLUT</td>
+    <td><b>NLUT</b></td>
     <td>23-arXiv</td>
     <td><a href="https://arxiv.org/abs/2303.09170" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/semchan/NLUT/" target="_blank" rel="noopener noreferrer">code</a></td>
@@ -128,7 +128,7 @@ TO BE UPDATED
   <tr>
     <td>C</td>
     <td>Video Low-light<br>enhancement<br></td>
-    <td>IA-LUT</td>
+    <td><b>IA-LUT</b></td>
     <td>MM'23</td>
     <td><a href="https://dl.acm.org/doi/10.1145/3581783.3611933" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/Wenhao-Li-%20777/FastLLVE" target="_blank" rel="noopener noreferrer">code</a></td>
@@ -140,7 +140,7 @@ TO BE UPDATED
   <tr>
     <td>Ours</td>
     <td>HDR/WCG Inverse<br>Tone-mapping</td>
-    <td>ITM-LUT<br></td>
+    <td><b>ITM-LUT</b><br></td>
     <td>CVMP'23</td>
     <td><a href="https://arxiv.org/abs/2309.17160" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td>here</td>
