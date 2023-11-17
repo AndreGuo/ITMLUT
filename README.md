@@ -18,7 +18,7 @@ You can cite this if you feel this helpful.
 <table>
 <thead>
   <tr>
-    <th colspan="6">AI-3D-LUT algotithms</th>
+    <th colspan="7">AI-3D-LUT algotithms</th>
     <th colspan="3">Expressiveness of the trained LUT</th>
     <th rowspan="2">Output of<br>neural network(s)<br></th>
     <th rowspan="2">Nodes<br>(packing)<br></th>
@@ -30,6 +30,7 @@ You can cite this if you feel this helpful.
     <th>Publication</th>
     <th>Paper<br></th>
     <th>Code</th>
+    <th>Institution</th>
     <th>#BasicLUT</th>
     <th>LUT size each</th>
     <th>Extra dimension (#)</th>
@@ -43,6 +44,7 @@ You can cite this if you feel this helpful.
     <td>20-TPAMI</td>
     <td><a href="https://ieeexplore.ieee.org/abstract/document/9206076" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/HuiZeng/Image-Adaptive-3DLUT" target="_blank" rel="noopener noreferrer">code</a></td>
+    <td>HK_PolyU &amp; DJI Innovation</td> 
     <td>3&times;1</td>
     <td>3&times;33<sup>3</sup></td>
     <td>-</td>
@@ -55,6 +57,7 @@ You can cite this if you feel this helpful.
     <td>ICCV'21</td>
     <td><a href="https://ieeexplore.ieee.org/document/9710177" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td>-</td>
+    <td><a href="https://www.noahlab.com.hk/" target="_blank" rel="noopener noreferrer">Huawei Noah's Ark Lab</a></td>
     <td>3&times;10</td>
     <td>3&times;33<sup>3</sup></td>
     <td>category (10)</td>
@@ -66,6 +69,7 @@ You can cite this if you feel this helpful.
     <td rowspan="2">MM'22</td>
     <td><a href="https://dl.acm.org/doi/10.1145/3503161.3547879" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/Xian-Bei/CLUT-Net/" target="_blank" rel="noopener noreferrer">code</a></td>
+    <td>CN_TongjiU &amp; OPPO Research</td>
     <td>20&times;1<br></td>
     <td>3&times;5&times;20</td>
     <td>-</td>
@@ -76,6 +80,7 @@ You can cite this if you feel this helpful.
     <td><b>F2D-LUT</b></td>
     <td><a href="https://dl.acm.org/doi/abs/10.1145/3503161.3548325" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/shedy-pub/I2VEnhance" target="_blank" rel="noopener noreferrer">code</a></td>
+    <td>CN_TsinghuaU</td>
     <td>6&times;3</td>
     <td>2&times;33<sup>2</sup></td>
     <td>channel order (3)</td>
@@ -86,6 +91,7 @@ You can cite this if you feel this helpful.
     <td>CVPR'22</td>
     <td><a href="https://ieeexplore.ieee.org/abstract/document/9879870" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/ImCharlesY/AdaInt" target="_blank" rel="noopener noreferrer">code</a></td>
+    <td rowspan="2">CN_SJTU &amp; Alibaba Group</td>
     <td>3&times;1</td>
     <td>3&times;33<sup>3</sup></td>
     <td rowspan="3">-</td>
@@ -109,6 +115,7 @@ You can cite this if you feel this helpful.
     <td>ACCV'22</td>
     <td><a href="https://link.springer.com/chapter/10.1007/978-3-031-26313-2_11" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/120326/DualBLN" target="_blank" rel="noopener noreferrer">code</a></td>
+    <td>CN_NorthwesternPolyU</td>
     <td>5&times;1</td>
     <td>3&times;36<sup>3</sup></td>
     <td>LUT fusion map</td>
@@ -120,6 +127,7 @@ You can cite this if you feel this helpful.
     <td>23-TIP</td>
     <td><a href="https://ieeexplore.ieee.org/document/10226494" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td>-</td>
+    <td>CN_XianJiaotongU &amp; Microsoft Research Asia</td>
     <td>3&times;1</td>
     <td>3&times;33<sup>4</sup></td>
     <td>context (33)</td>
@@ -132,6 +140,7 @@ You can cite this if you feel this helpful.
     <td>23-arXiv</td>
     <td><a href="https://arxiv.org/abs/2303.09170" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/semchan/NLUT/" target="_blank" rel="noopener noreferrer">code</a></td>
+    <td><a href="http://international.sobey.com/index.php" target="_blank" rel="noopener noreferrer">Sobey Digital Technology</a> &amp; Peng Cheng Lab</td>
     <td>2048&times;1</td>
     <td>3&times;32&times;32</td>
     <td>-</td>
@@ -144,6 +153,7 @@ You can cite this if you feel this helpful.
     <td>MM'23</td>
     <td><a href="https://dl.acm.org/doi/10.1145/3581783.3611933" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/Wenhao-Li-%20777/FastLLVE" target="_blank" rel="noopener noreferrer">code</a></td>
+    <td>CN_SJTU &amp; <a href="https://damo.alibaba.com/" target="_blank" rel="noopener noreferrer">Alibaba Damo Academy</a></td>
     <td>3&times;1</td>
     <td>3&times;33<sup>4</sup></td>
     <td>intensity (33)</td>
@@ -156,6 +166,7 @@ You can cite this if you feel this helpful.
     <td>CVMP'23</td>
     <td><a href="https://arxiv.org/abs/2309.17160" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td>here</td>
+    <td>CN_CUC &amp; Peng Cheng Lab</td>
     <td>5&times;3</td>
     <td>3&times;17<sup>3</sup></td>
     <td>luminance probability<br>(contribution) (3)<br></td>
