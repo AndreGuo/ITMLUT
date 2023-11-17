@@ -166,7 +166,7 @@ You can cite this if you feel this helpful.
     <td>CVMP'23</td>
     <td><a href="https://arxiv.org/abs/2309.17160" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td>here</td>
-    <td>CN_CUC &amp; Peng Cheng Lab</td>
+    <td><a href="https://en.cuc.edu.cn/" target="_blank" rel="noopener noreferrer">CN_CUC</a> &amp; Peng Cheng Lab</td>
     <td>5&times;3</td>
     <td>3&times;17<sup>3</sup></td>
     <td>luminance probability<br>(contribution) (3)<br></td>
