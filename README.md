@@ -3,7 +3,7 @@ Official PyTorch implemeation of "Redistributing the Precision and Content in 3D
 
 # 1. A quick glance to all AI-3D-LUT algorithms
 
-Here are all AI-3D-LUT as far as we know (last updated 16/11/2023), please jump to them if interested.
+Here are all AI-3D-LUT as far as we know (last updated 17/11/2023), please jump to them if interested.
 
 You can cite this if you feel this helpful.
 
@@ -33,7 +33,7 @@ You can cite this if you feel this helpful.
     <th>Institution</th>
     <th>#BasicLUT</th>
     <th>LUT size each</th>
-    <th>Extra dimension (#)</th>
+    <th>(#) Extra dimension</th>
   </tr>
 </thead>
 <tbody>
@@ -60,7 +60,7 @@ You can cite this if you feel this helpful.
     <td><a href="https://www.noahlab.com.hk/" target="_blank" rel="noopener noreferrer">Huawei Noah's Ark Lab</a></td>
     <td>3&times;10</td>
     <td>3&times;33<sup>3</sup></td>
-    <td>category (10)</td>
+    <td>(10) category</td>
     <td>weights &amp; category map</td>
   </tr>
   <tr>
@@ -83,7 +83,7 @@ You can cite this if you feel this helpful.
     <td>CN_TsinghuaU</td>
     <td>6&times;3</td>
     <td>2&times;33<sup>2</sup> (3D LUT decoupled to 2D LUTs) </td>
-    <td>channel order (3)</td>
+    <td>(3) R-G/R-B/G-B channel order</td>
   </tr>
   <tr>
     <td>N</td>
@@ -130,7 +130,7 @@ You can cite this if you feel this helpful.
     <td>CN_XianJiaotongU &amp; <a href="https://www.msra.cn" target="_blank" rel="noopener noreferrer">Microsoft Research Asia</a></td>
     <td>3&times;1</td>
     <td>3&times;33<sup>4</sup></td>
-    <td>context (33)</td>
+    <td>(33) context</td>
     <td>weights &amp; context map</td>
   </tr>
   <tr>
@@ -156,7 +156,7 @@ You can cite this if you feel this helpful.
     <td>CN_SJTU &amp; <a href="https://damo.alibaba.com/" target="_blank" rel="noopener noreferrer">Alibaba Damo Academy</a></td>
     <td>3&times;1</td>
     <td>3&times;33<sup>4</sup></td>
-    <td>intensity (33)</td>
+    <td>(33) intensity</td>
     <td>weights &amp; intensity map</td>
   </tr>
   <tr>
@@ -169,7 +169,7 @@ You can cite this if you feel this helpful.
     <td><a href="https://en.cuc.edu.cn/" target="_blank" rel="noopener noreferrer">CN_CUC</a> &amp; Peng Cheng Lab</td>
     <td>5&times;3</td>
     <td>3&times;17<sup>3</sup></td>
-    <td>luminance probability<br>(contribution) (3)<br></td>
+    <td>(3) luminance probability<br>(contribution)<br></td>
     <td>weights</td>
     <td>explicitly defined<br>non-uniform<br></td>
   </tr>
