@@ -69,7 +69,7 @@ You can cite this if you feel this helpful.
     <td rowspan="2">MM'22</td>
     <td><a href="https://dl.acm.org/doi/10.1145/3503161.3547879" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/Xian-Bei/CLUT-Net/" target="_blank" rel="noopener noreferrer">code</a></td>
-    <td>CN_TongjiU &amp; OPPO Research</td>
+    <td>CN_TongjiU &amp; <a href="https://ur.oppo.com/" target="_blank" rel="noopener noreferrer">OPPO Research</a></td>
     <td>20&times;1<br></td>
     <td>3&times;5&times;20</td>
     <td>-</td>
