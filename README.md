@@ -44,7 +44,7 @@ You can cite this if you feel this helpful.
     <td>20-TPAMI</td>
     <td><a href="https://ieeexplore.ieee.org/abstract/document/9206076" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/HuiZeng/Image-Adaptive-3DLUT" target="_blank" rel="noopener noreferrer">code</a></td>
-    <td>HK_PolyU &amp; DJI Innovation</td> 
+    <td>HK_PolyU &amp; <a href="https://www.dji.com/" target="_blank" rel="noopener noreferrer">DJI Innovation</a></td>
     <td>3&times;1</td>
     <td>3&times;33<sup>3</sup></td>
     <td>-</td>
@@ -71,7 +71,7 @@ You can cite this if you feel this helpful.
     <td><a href="https://github.com/Xian-Bei/CLUT-Net/" target="_blank" rel="noopener noreferrer">code</a></td>
     <td>CN_TongjiU &amp; <a href="https://ur.oppo.com/" target="_blank" rel="noopener noreferrer">OPPO Research</a></td>
     <td>20&times;1<br></td>
-    <td>3&times;5&times;20</td>
+    <td>3&times;5&times;20 (compressed LUT representation)</td>
     <td>-</td>
     <td rowspan="2">weights</td>
   </tr>
@@ -82,7 +82,7 @@ You can cite this if you feel this helpful.
     <td><a href="https://github.com/shedy-pub/I2VEnhance" target="_blank" rel="noopener noreferrer">code</a></td>
     <td>CN_TsinghuaU</td>
     <td>6&times;3</td>
-    <td>2&times;33<sup>2</sup></td>
+    <td>2&times;33<sup>2</sup> (3D LUT decoupled to 2D LUTs) </td>
     <td>channel order (3)</td>
   </tr>
   <tr>
@@ -127,7 +127,7 @@ You can cite this if you feel this helpful.
     <td>23-TIP</td>
     <td><a href="https://ieeexplore.ieee.org/document/10226494" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td>-</td>
-    <td>CN_XianJiaotongU &amp; Microsoft Research Asia</td>
+    <td>CN_XianJiaotongU &amp; <a href="https://www.msra.cn" target="_blank" rel="noopener noreferrer">Microsoft Research Asia</a></td>
     <td>3&times;1</td>
     <td>3&times;33<sup>4</sup></td>
     <td>context (33)</td>
@@ -142,7 +142,7 @@ You can cite this if you feel this helpful.
     <td><a href="https://github.com/semchan/NLUT/" target="_blank" rel="noopener noreferrer">code</a></td>
     <td><a href="http://international.sobey.com/index.php" target="_blank" rel="noopener noreferrer">Sobey Digital Technology</a> &amp; Peng Cheng Lab</td>
     <td>2048&times;1</td>
-    <td>3&times;32&times;32</td>
+    <td>3&times;32&times;32 (compressed LUT representation)</td>
     <td>-</td>
     <td>weights</td>
   </tr>
