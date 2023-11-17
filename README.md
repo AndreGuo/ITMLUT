@@ -175,4 +175,53 @@ In col. *idea*:
 
 # 2. Our algorithm ITM-LUT
 
-COMING SOON
+## 2.1 Note that
+
+Current checkpoint is trained on our own dataset and degradation model, we will later release a cheackpoint trained on commom dataset e.g. *HDRTV1K (YouTube degradation model)*.
+
+## 2.2 Prerequisites
+
+- Python
+- PyTorch
+- OpenCV
+- ImageIO
+- NumPy
+- GCC/G++
+
+## 2.3 Usage (how to test)
+
+First, install the CUDA&C++ implementation of ***trilinear interpolation with non-uniform vertices*** (need GCC/G++):
+
+```bash
+python3 ./ailut/setup.py install
+```
+after that, you can get `ailut` package in your python.
+
+Run `test.py` with below configuration(s):
+
+```bash
+python3 test.py frameName.jpg
+```
+
+When batch processing, use wildcard `*`:
+
+```bash
+python3 test.py framesPath/*.png
+```
+
+or like:
+
+```bash
+python3 test.py framesPath/footageName_*.png
+```
+
+Add below configuration(s) for specific propose:
+
+| Propose                                                                                          |                                    Configuration                                     |
+|:-------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------:|
+| Specifing output path                                                                            |                       `-out resultDir/` (default is inputDir)                        |
+| Resizing image before inference                                                                  |                       `-resize True -height newH -width newW`                        |
+| Adding filename tag                                                                              |                                    `-tag yourTag`                                    |
+| Forcing CPU processing                                                                           |                                   `-use_gpu False`                                   |
+| Using input SDR with bit depth != 8                                                              |                               *e.g.* `-in_bitdepth 16`                               |
+| Saving result HDR in other format<br/>(defalut is uncompressed<br/>16-bit `.tif`of single frame) | `-out_format suffix`<br>`png` as 16bit .png<br>`exr` require extra package `openEXR` |
