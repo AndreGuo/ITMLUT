@@ -167,7 +167,7 @@ You can cite our paper if you feel this helpful.
     <td><b>ITM-LUT</b><br></td>
     <td>CVMP'23</td>
     <td><a href="https://arxiv.org/pdf/2309.17160" target="_blank" rel="noopener noreferrer">paper</a></td>
-    <td>here</td>
+    <td>see below</td>
     <td><a href="https://en.cuc.edu.cn/" target="_blank" rel="noopener noreferrer">CN_CUC</a> &amp; Peng Cheng Lab</td>
     <td>5&times;3</td>
     <td>3&times;17<sup>3</sup></td>
