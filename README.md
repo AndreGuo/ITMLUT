@@ -236,3 +236,13 @@ Add below configuration(s) for specific propose:
 | Forcing CPU processing                                                                           |                                   `-use_gpu False`                                   |
 | Using input SDR with bit depth != 8                                                              |                               *e.g.* `-in_bitdepth 16`                               |
 | Saving result HDR in other format<br/>(defalut is uncompressed<br/>16-bit `.tif`of single frame) | `-out_format suffix`<br>`png` as 16bit .png<br>`exr` require extra package `openEXR` |
+
+## Contact
+
+Current code is only for testing. If you want training code (including our own basic LUT initialzation), please contact me.
+
+Guo Cheng ([Andre Guo](https://orcid.org/orcid=0000-0002-2660-2267)) guocheng@cuc.edu.cn
+
+- *State Key Laboratory of Media Convergence and Communication (MCC),
+Communication University of China (CUC), Beijing, China.*
+- *Peng Cheng Laboratory (PCL), Shenzhen, China.*
