@@ -3,7 +3,7 @@ Official PyTorch implemeation of "Redistributing the Precision and Content in 3D
 
 # 1. A quick glance to all AI-3D-LUT algorithms
 
-Here are all AI-3D-LUT as far as we know (last updated 17/11/2023), please jump to them if interested.
+Here are all AI-3D-LUT (look-up table) as far as we know (last updated 17/11/2023), please jump to them if interested.
 
 **Note that**: These AI-LUTs are all for image-to-iamge low-level vision tasks, non-3D AI-LUTs for other CV tasks *e.g.* [SR-LUT](https://openaccess.thecvf.com/content/CVPR2021/papers/Jo_Practical_Single-Image_Super-Resolution_Using_Look-Up_Table_CVPR_2021_paper.pdf), [MuLUT](https://link.springer.com/content/pdf/10.1007/978-3-031-19797-0_14), [VA-LUT](https://arxiv.org/pdf/2303.00334v1) (**super-resolution**, non-3D-LUT), [MEFLUT](https://openaccess.thecvf.com/content/ICCV2023/papers/Jiang_MEFLUT_Unsupervised_1D_Lookup_Tables_for_Multi-exposure_Image_Fusion_ICCV_2023_paper.pdf) (**multi-exposure fusion**, 1D-LUT), [SA-LuT-Nets](https://link.springer.com/content/pdf/10.1007/978-3-030-59719-1_22.pdf) (**medical imaging**) *etc.* are not included. Such LUTs is different from ours, since they may not even involve an interpolation process.
 
@@ -190,9 +190,13 @@ In col. *idea*:
 
 # 2. Our algorithm ITM-LUT
 
-## 2.1 Note that
+Our AI-3D-LUT alogorithm named ***ITM-LUT*** conduct inverse tone-mapping (ITM) from standard dynamic range (SDR) image to high dynamic range and wide color gamut (HDR/WCG)
 
-Current checkpoint is trained on our own dataset and degradation model, we will later release a cheackpoint trained on commom dataset e.g. *HDRTV1K (YouTube degradation model)*.
+## 2.1 Key features
+
+- ***Self-adaptability:*** LUT content will alter with input SDR's statisctics, by merging basic LUTs using neural-network-genertated weight from input SDR.
+- ***AI-learning:*** Rather a 'top-down design' static LUT, our LUT can be learned from any dataset in 'bottom-up' manner, enabling the reverse engeneering of any technical and artistic intent between SDR and HDR/WCG.
+- ***HDR/WCG optimization:*** For a LUT processing higher-bit-depth HDR/WCG content (requiring larger LUT size *N*), we use 3 LUTs with different non-uniform nodes. Their result will have less interpolation error respectively in different ranges, so we use a pixel-wise contribution map to blend their best ranges. In this case, 3 smaller LUTs (e.g. *N*=17) can reach the same error level to single bigger LUT (e.g. *N*=33), while occupy less #elements (e.g. 44217<107811).
 
 ## 2.2 Prerequisites
 
@@ -240,6 +244,10 @@ Add below configuration(s) for specific propose:
 | Forcing CPU processing                                                                           |                                   `-use_gpu False`                                   |
 | Using input SDR with bit depth != 8                                                              |                               *e.g.* `-in_bitdepth 16`                               |
 | Saving result HDR in other format<br/>(defalut is uncompressed<br/>16-bit `.tif`of single frame) | `-out_format suffix`<br>`png` as 16bit .png<br>`exr` require extra package `openEXR` |
+
+***Note that:***
+
+Current checkpoint is trained on our own dataset and degradation model, we will later release a cheackpoint trained on commom dataset e.g. *HDRTV1K (YouTube degradation model)*.
 
 ## Contact
 
