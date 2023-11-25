@@ -192,7 +192,7 @@ In col. *idea*:
 
 # 2. Our algorithm ITM-LUT
 
-Our AI-3D-LUT alogorithm named ***ITM-LUT*** conduct inverse tone-mapping (ITM) from standard dynamic range (SDR) image to high dynamic range and wide color gamut (HDR/WCG)
+Our AI-3D-LUT alogorithm named ***ITM-LUT*** conduct inverse tone-mapping (ITM) from standard dynamic range (SDR) image/frame to its high dynamic range and wide color gamut (HDR/WCG) version.
 
 ## 2.1 Key features
 
