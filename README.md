@@ -1,5 +1,5 @@
 # ITMLUT
-Official PyTorch implemeation of "Redistributing the Precision and Content in 3D-LUT-based Inverse Tone-mapping for HDR/WCG Display"([paper(arViv)](https://arxiv.org/abs/2309.17160), [paper](https://dl.acm.org/doi/abs/10.1145/3626495.3626503)) in [CVMP2023](https://www.cvmp-conference.org/2023/).
+Official PyTorch implemeation of "Redistributing the Precision and Content in 3D-LUT-based Inverse Tone-mapping for HDR/WCG Display"([paper(arViv)](https://arxiv.org/abs/2309.17160), [paper](https://dl.acm.org/doi/abs/10.1145/3626495.3626503)) in CVMP2023 ([website](https://www.cvmp-conference.org/2023/), [proceedings](https://dl.acm.org/doi/proceedings/10.1145/3626495)).
 
 # 1. A quick glance to all AI-3D-LUT algorithms
 
