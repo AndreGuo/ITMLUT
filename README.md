@@ -1,5 +1,5 @@
 # ITMLUT
-Official PyTorch implemeation of "Redistributing the Precision and Content in 3D-LUT-based Inverse Tone-mapping for HDR/WCG Display"([paper](https://arxiv.org/abs/2309.17160)) in [CVMP2023](https://www.cvmp-conference.org/2023/).
+Official PyTorch implemeation of "Redistributing the Precision and Content in 3D-LUT-based Inverse Tone-mapping for HDR/WCG Display"([paper(arViv)](https://arxiv.org/abs/2309.17160), [paper](https://dl.acm.org/doi/abs/10.1145/3626495.3626503)) in [CVMP2023](https://www.cvmp-conference.org/2023/).
 
 # 1. A quick glance to all AI-3D-LUT algorithms
 
@@ -14,7 +14,9 @@ You can cite our paper if you feel this helpful.
         title     = {Redistributing the Precision and Content in 3D-LUT-based Inverse Tone-mapping for HDR/WCG Display},
         booktitle = {Proceedings of the 20th ACM SIGGRAPH European Conference on Visual Media Production (CVMP)},
         month     = {November},
-        year      = {2023}
+        year      = {2023},
+        pages     = {1-10},
+        doi       = {10.1145/3626495.3626503}
     }
 
 <table>
@@ -166,7 +168,7 @@ You can cite our paper if you feel this helpful.
     <td>HDR/WCG Inverse<br>Tone-mapping</td>
     <td><b>ITM-LUT</b><br></td>
     <td>CVMP'23</td>
-    <td><a href="https://arxiv.org/pdf/2309.17160" target="_blank" rel="noopener noreferrer">paper</a></td>
+    <td><a href="https://dl.acm.org/doi/abs/10.1145/3626495.3626503" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td>see below</td>
     <td><a href="https://en.cuc.edu.cn/" target="_blank" rel="noopener noreferrer">CN_CUC</a> &amp; Peng Cheng Lab</td>
     <td>5&times;3</td>
