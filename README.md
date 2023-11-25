@@ -1,4 +1,4 @@
-# ITMLUT
+![image](https://github.com/AndreGuo/ITMLUT/assets/35627165/a41a4957-c2de-41c8-87f8-628c8204f48e)![image](https://github.com/AndreGuo/ITMLUT/assets/35627165/7768395e-8cb3-4720-a953-469d5e5ede64)# ITMLUT
 Official PyTorch implemeation of "Redistributing the Precision and Content in 3D-LUT-based Inverse Tone-mapping for HDR/WCG Display"([paper(arViv)](https://arxiv.org/abs/2309.17160), [paper](https://dl.acm.org/doi/abs/10.1145/3626495.3626503)) in CVMP2023 ([website](https://www.cvmp-conference.org/2023/), [proceedings](https://dl.acm.org/doi/proceedings/10.1145/3626495)).
 
 # 1. A quick glance to all AI-3D-LUT algorithms
@@ -196,8 +196,8 @@ Our AI-3D-LUT alogorithm named ***ITM-LUT*** conduct inverse tone-mapping (ITM) 
 
 ## 2.1 Key features
 
-- ***Self-adaptability:*** LUT content will alter with input SDR's statisctics, by merging basic LUTs using neural-network-genertated weight from input SDR.
-- ***AI-learning:*** Rather a 'top-down design' static LUT, our LUT can be learned from any dataset in 'bottom-up' manner, enabling the reverse engeneering of any technical and artistic intent between SDR and HDR/WCG.
+- ***Self-adaptability:*** LUT content will alter with input SDR's statistics, by merging basic LUTs using neural-network-generated weight from input SDR.
+- ***AI-learning:*** Rather a 'top-down design' static LUT, our LUT can be learned from any dataset in 'bottom-up' manner, enabling the reverse engineering of any technical and artistic intent between SDR and HDR/WCG.
 - ***HDR/WCG optimization:*** For a LUT processing higher-bit-depth HDR/WCG content (requiring larger LUT size *N*), we use 3 LUTs with different non-uniform nodes. Their result will have less interpolation error respectively in different ranges, so we use a pixel-wise contribution map to blend their best ranges. In this case, 3 smaller LUTs (e.g. *N*=17) can reach the same error level to single bigger LUT (e.g. *N*=33), while occupy less #elements (e.g. 44217<107811).
 
 ## 2.2 Prerequisites
