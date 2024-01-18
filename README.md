@@ -249,7 +249,7 @@ Add below configuration(s) for specific propose:
 
 ***Note that:***
 
-Current checkpoint is trained on our own dataset and degradation model, we will later release a cheackpoint trained on commom dataset e.g. *HDRTV1K (YouTube degradation model)*.
+Current checkpoint `params.pth` is trained on our own dataset and ***DaVinci*** degradation model (available [here](TODO)), we will later release a cheackpoint trained on commom dataset e.g. *HDRTV1K (YouTube degradation model)* used by most SDR-toHDRTV SoTAs.
 
 ## Contact
 
