@@ -249,7 +249,7 @@ Add below configuration(s) for specific propose:
 
 ***Note that:***
 
-Current checkpoint `params.pth` is trained on our own dataset and ***DaVinci*** degradation model (available [here](https://github.com/AndreGuo/HDRTVDM/#DaVinciSDR)), we will later release a cheackpoint trained on commom dataset e.g. *HDRTV1K (YouTube degradation model)* used by most SDR-toHDRTV SoTAs.
+Current checkpoint `params.pth` is trained on our own ***HDRTV4K*** dataset and ***DaVinci*** degradation model (available [here](https://github.com/AndreGuo/HDRTVDM/#DaVinciSDR)), we will later release a cheackpoint trained on commom dataset e.g. *HDRTV1K (YouTube degradation model)* used by most SDR-toHDRTV SoTAs.
 
 ## Contact
 
