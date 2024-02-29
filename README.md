@@ -247,9 +247,11 @@ Add below configuration(s) for specific propose:
 | Using input SDR with bit depth != 8                                                              |                               *e.g.* `-in_bitdepth 16`                               |
 | Saving result HDR in other format<br/>(defalut is uncompressed<br/>16-bit `.tif`of single frame) | `-out_format suffix`<br>`png` as 16bit .png<br>`exr` require extra package `openEXR` |
 
-***Note that:***
+Change `line 104` in `method/test.py` to use other parameters/checkpoint:
 
-Current checkpoint `params.pth` is trained on our own ***HDRTV4K*** dataset and ***DaVinci*** degradation model (available [here](https://github.com/AndreGuo/HDRTVDM/#DaVinciSDR)), we will later release a cheackpoint trained on commom dataset e.g. *HDRTV1K (YouTube degradation model)* used by most SDR-toHDRTV SoTAs.
++ Current `method/params.pth` is trained on our own ***HDRTV4K*** dataset and ***DaVinci*** degradation model (available [here](https://github.com/AndreGuo/HDRTVDM/#DaVinciSDR)).
++ Checkpoint `method/params_TV1K.pth` is trained on popular ***HDRTV1K*** dataset and ***YouTube*** degradation model, it can score 36.12dB the PSNR, 0.9783 the SSIM, 11.502 the $\Delta$ E<sub>itp</sub> and 8.8062 VDP3 ('task'='side-by-side', 'color_encoding'='rgb-bt.2020', 'pixel_per_degree'=60 on 1920*1080 image) on ***HDRTV1K*** testset.
++ We will later release more interesting checkpoint(s).
 
 ## Contact
 
