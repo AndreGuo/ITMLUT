@@ -253,6 +253,12 @@ Change `line 104` in `test.py` to use other parameters/checkpoint:
 + Checkpoint `params_TV1K.pth` is trained on popular ***HDRTV1K*** dataset and ***YouTube*** degradation model, it can score 36.12dB the PSNR, 0.9783 the SSIM, 11.502 the $\Delta$ E<sub>itp</sub> and 8.8062 VDP3 ('task'='side-by-side', 'color_encoding'='rgb-bt.2020', 'pixel_per_degree'=60 on 1920*1080 image) on ***HDRTV1K*** testset.
 + We will later release more interesting checkpoint(s).
 
+## 2.4 Changelog
+
+| Date          |   log  |
+|:-------------:|:------:|
+| 29 Feb 2024   | Since most SoTAs are still trained and tested on ***HDRTV1K*** dataset, we add a checkpoint `params_TV1K.pth` trained on it, so result will get a similar look as SoTAs. |
+
 ## Contact
 
 Current code is only for testing. If you want training code (including our own basic LUT initialzation), please contact me.
