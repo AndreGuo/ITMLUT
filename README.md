@@ -253,15 +253,31 @@ Change `line 104` in `test.py` to use other parameters/checkpoint:
 + Checkpoint `params_TV1K.pth` is trained on popular ***HDRTV1K*** dataset and ***YouTube*** degradation model, it can score 36.12dB the PSNR, 0.9783 the SSIM, 11.502 the $\Delta$ E<sub>itp</sub> and 8.8062 VDP3 ('task'='side-by-side', 'color_encoding'='rgb-bt.2020', 'pixel_per_degree'=60 on 1920*1080 image) on ***HDRTV1K*** testset.
 + We will later release more interesting checkpoint(s).
 
-## 2.4 Changelog
+## 2.4 Training code
+
+First, download the training code from [BaiduNetDisk](https://pan.baidu.com/s/18Zw6UJsrAZHw1Hy6cYiPSQ?pwd=2nzj)(code:2nzj) or [GoogleDrive](https://drive.google.com/file/d/1zhIJ3igFIPgmWK9BiBAh5TSYqL4GL7wL/view?usp=drive_link).
+This package contain 5 essential real ITM LUTs used in our own LUT initialization, and other 13 real ITM LUTs (in both N=17/33/65) where you can use any of their combinations to try new LUT initialization.
+
+Then:
+
+```bash
+cd ITMLUT_train/codes
+```
+
+```bash
+python3 train.py -opt options/test/test_Net.yml
+```
+
+You can modify training configuration e.g. #basicLUTs and LUTsize at `codes/options/test/test_Net.yml`.
+
+## 2.5 Changelog
 
 | Date          |   log  |
 |:-------------:|:------:|
 | 29 Feb 2024   | Since most SoTAs are still trained and tested on ***HDRTV1K*** dataset, we add a checkpoint `params_TV1K.pth` trained on it, so result will get a similar look as SoTAs. |
+| 3 Mar 2024 | Training code (along with 18 real ITM LUTs in N=17/33/65) is now released. |
 
 ## Contact
-
-Current code is only for testing. If you want training code (including our own basic LUT initialzation), please contact me.
 
 Guo Cheng ([Andre Guo](https://orcid.org/orcid=0000-0002-2660-2267)) guocheng@cuc.edu.cn
 
