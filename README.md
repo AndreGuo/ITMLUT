@@ -60,9 +60,9 @@ You can cite our paper if you feel this helpful.
     <td><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Real-Time_Image_Enhancer_via_Learnable_Spatial-Aware_3D_Lookup_Tables_ICCV_2021_paper.pdf" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td>-</td>
     <td><a href="https://www.noahlab.com.hk/" target="_blank" rel="noopener noreferrer">Huawei Noah's Ark Lab</a></td>
-    <td>3&times;10</td>
+    <td>3&times;<b>10</b></td>
     <td>3&times;33<sup>3</sup></td>
-    <td>(10) category</td>
+    <td>(<b>10</b>) category</td>
     <td>weights &amp; category map</td>
   </tr>
   <tr>
@@ -83,9 +83,9 @@ You can cite our paper if you feel this helpful.
     <td><a href="https://dl.acm.org/doi/abs/10.1145/3503161.3548325" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/shedy-pub/I2VEnhance" target="_blank" rel="noopener noreferrer">code</a></td>
     <td>CN_TsinghuaU</td>
-    <td>6&times;3</td>
+    <td>6&times;<b>3</b></td>
     <td>2&times;33<sup>2</sup> (3D LUT decoupled to 2D LUTs) </td>
-    <td>(3) R-G/R-B/G-B channel order</td>
+    <td>(<b>3</b>) R-G/R-B/G-B channel order</td>
   </tr>
   <tr>
     <td>N</td>
@@ -131,8 +131,8 @@ You can cite our paper if you feel this helpful.
     <td>-</td>
     <td>CN_XianJiaotongU &amp; <a href="https://www.msra.cn" target="_blank" rel="noopener noreferrer">Microsoft Research Asia</a></td>
     <td>3&times;1</td>
-    <td>3&times;33<sup>4</sup></td>
-    <td>(33) context</td>
+    <td>3&times;33<sup><b>4</b></sup></td>
+    <td>(<b>33</b>) context</td>
     <td>weights &amp; context map</td>
   </tr>
   <tr>
@@ -157,8 +157,8 @@ You can cite our paper if you feel this helpful.
     <td><a href="https://github.com/Wenhao-Li-%20777/FastLLVE" target="_blank" rel="noopener noreferrer">code</a></td>
     <td>CN_SJTU &amp; <a href="https://damo.alibaba.com/" target="_blank" rel="noopener noreferrer">Alibaba Damo Academy</a></td>
     <td>3&times;1</td>
-    <td>3&times;33<sup>4</sup></td>
-    <td>(33) intensity</td>
+    <td>3&times;33<sup><b>4</b></sup></td>
+    <td>(<b>33</b>) intensity</td>
     <td>weights &amp; intensity map</td>
   </tr>
     <tr>
@@ -182,9 +182,9 @@ You can cite our paper if you feel this helpful.
     <td><a href="https://dl.acm.org/doi/abs/10.1145/3626495.3626503" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td>see below</td>
     <td><a href="https://en.cuc.edu.cn/" target="_blank" rel="noopener noreferrer">CN_CUC</a> &amp; Peng Cheng Lab</td>
-    <td>5&times;3</td>
+    <td>5&times;<b>3</b></td>
     <td>3&times;17<sup>3</sup></td>
-    <td>(3) luminance probability<br>(contribution)<br></td>
+    <td>(<b>3</b>) luminance probability<br>(contribution)<br></td>
     <td>weights</td>
     <td>explicitly defined<br>non-uniform<br></td>
   </tr>
