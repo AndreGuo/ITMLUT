@@ -167,12 +167,12 @@ You can cite our paper if you feel this helpful.
     <td><b>LapLUT</b></td>
     <td>NeurIPS'23</td>
     <td><a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/b3a08d179347e33414badadf100e4e8d-Paper-Conference.pdf" target="_blank" rel="noopener noreferrer">paper</a></td>
-    <td></td>
+    <td>-</td>
     <td>CN_HUST  &amp; <a href="https://www.dji.com/" target="_blank" rel="noopener noreferrer">DJI Innovation</a></td>
     <td>3&times;1</td>
     <td>3&times;33(?)<sup>3</sup></td>
-    <td>(33) intensity</td>
-    <td>weight map</td>
+    <td>-</td>
+    <td>weight map (of each interpolated image)</td>
   </tr>
   <tr>
     <td>Ours</td>
