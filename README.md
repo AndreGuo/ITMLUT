@@ -3,11 +3,7 @@ Official PyTorch implemeation of "Redistributing the Precision and Content in 3D
 
 # 1. A quick glance to all AI-3D-LUT algorithms
 
-Here are all AI-3D-LUT (look-up table) as far as we know (last updated 17/11/2023), please jump to them if interested.
-
-**Note that**:
-
-These AI-LUTs are all for image-to-image low-level vision tasks, non-3D AI-LUTs for other CV tasks *e.g.* [SR-LUT](https://openaccess.thecvf.com/content/CVPR2021/papers/Jo_Practical_Single-Image_Super-Resolution_Using_Look-Up_Table_CVPR_2021_paper.pdf), [MuLUT](https://link.springer.com/content/pdf/10.1007/978-3-031-19797-0_14), [VA-LUT](https://arxiv.org/pdf/2303.00334v1) (**super-resolution**, non-3D-LUT), [MEFLUT](https://openaccess.thecvf.com/content/ICCV2023/papers/Jiang_MEFLUT_Unsupervised_1D_Lookup_Tables_for_Multi-exposure_Image_Fusion_ICCV_2023_paper.pdf) (**multi-exposure fusion**, 1D-LUT), [SA-LuT-Nets](https://link.springer.com/content/pdf/10.1007/978-3-030-59719-1_22.pdf) (**medical imaging**) *etc.* are not included. Such LUTs is different from ours, since they may not even involve an interpolation process.
+Here are all AI-3D-LUT (look-up table) as far as we know (last updated 07/03/2024), please jump to them if interested.
 
 You can cite our paper if you feel this helpful.
 
@@ -189,6 +185,12 @@ In col. *idea*:
 **E** stands for making LUT further **e**fficient;
 
 **N** stands for setting non-uniform **n**odes.
+
+**Note that**:
+
+We only listed AI-3D-LUTs for image-to-image low-level vision tasks, and below AI-LUTs are not included:
++ Non-3D AI-LUTs for other CV tasks: *e.g.* [SR-LUT](https://openaccess.thecvf.com/content/CVPR2021/papers/Jo_Practical_Single-Image_Super-Resolution_Using_Look-Up_Table_CVPR_2021_paper.pdf), [MuLUT](https://link.springer.com/content/pdf/10.1007/978-3-031-19797-0_14), [VA-LUT](https://arxiv.org/pdf/2303.00334v1) (**super-resolution**, non-3D-LUT), [MEFLUT](https://openaccess.thecvf.com/content/ICCV2023/papers/Jiang_MEFLUT_Unsupervised_1D_Lookup_Tables_for_Multi-exposure_Image_Fusion_ICCV_2023_paper.pdf) (**multi-exposure fusion**, 1D-LUT), [SA-LuT-Nets](https://link.springer.com/content/pdf/10.1007/978-3-030-59719-1_22.pdf) (**medical imaging**) *etc.* (Such LUTs may not even involve an interpolation process).
++ Claim to be AI-LUT, but use other mechanism to conduct image-to-image transform: *e.g.* [NILUT](https://arxiv.org/pdf/2306.11920.pdf) (represent LUT transform using MLP(multi-layer perceptron)) *etc*.
 
 # 2. Our algorithm ITM-LUT
 
