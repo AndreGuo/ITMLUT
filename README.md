@@ -5,7 +5,7 @@ Official PyTorch implemeation of "Redistributing the Precision and Content in 3D
 
 Here are all AI-3D-LUT (look-up table) as far as we know (last updated 07/03/2024), please jump to them if interested.
 
-You can cite our paper if you feel this helpful.
+You can cite our paper if you feel this overview helpful.
 
     @InProceedings{Guo_2023_CVMP,
         author    = {Guo, Cheng and Fan, Leidong and Zhang, Qian and Liu, Hanyuan and Liu, Kanglin and Jiang, Xiuhua},
