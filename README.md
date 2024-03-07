@@ -121,7 +121,7 @@ You can cite our paper if you feel this helpful.
     <td>5&times;1</td>
     <td>3&times;36<sup>3</sup></td>
     <td>LUT fusion map</td>
-    <td rowspan="4">uniform</td>
+    <td rowspan="5">uniform</td>
   </tr>
   <tr>
     <td>C</td>
@@ -161,6 +161,19 @@ You can cite our paper if you feel this helpful.
     <td>(33) intensity</td>
     <td>weights &amp; intensity map</td>
   </tr>
+    <tr>
+    <td>E</td>
+    <td>Tone-mapping</td>
+    <td><b>LapLUT</b></td>
+    <td>NeurIPS'23</td>
+    <td><a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/b3a08d179347e33414badadf100e4e8d-Paper-Conference.pdf" target="_blank" rel="noopener noreferrer">paper</a></td>
+    <td></td>
+    <td>CN_HUST  &amp; <a href="https://www.dji.com/" target="_blank" rel="noopener noreferrer">DJI Innovation</a></td>
+    <td>3&times;1</td>
+    <td>3&times;33(?)<sup>3</sup></td>
+    <td>(33) intensity</td>
+    <td>weight map</td>
+  </tr>
   <tr>
     <td>Ours</td>
     <td>HDR/WCG Inverse<br>Tone-mapping</td>
@@ -189,7 +202,7 @@ In col. *idea*:
 **Note that**:
 
 We only listed AI-3D-LUTs for image-to-image low-level vision tasks, and below AI-LUTs are not included:
-+ Non-3D AI-LUTs for other CV tasks: *e.g.* [SR-LUT](https://openaccess.thecvf.com/content/CVPR2021/papers/Jo_Practical_Single-Image_Super-Resolution_Using_Look-Up_Table_CVPR_2021_paper.pdf), [MuLUT](https://link.springer.com/content/pdf/10.1007/978-3-031-19797-0_14), [VA-LUT](https://arxiv.org/pdf/2303.00334v1) (**super-resolution**, non-3D-LUT), [MEFLUT](https://openaccess.thecvf.com/content/ICCV2023/papers/Jiang_MEFLUT_Unsupervised_1D_Lookup_Tables_for_Multi-exposure_Image_Fusion_ICCV_2023_paper.pdf) (**multi-exposure fusion**, 1D-LUT), [SA-LuT-Nets](https://link.springer.com/content/pdf/10.1007/978-3-030-59719-1_22.pdf) (**medical imaging**) *etc.* (Such LUTs may not even involve an interpolation process).
++ Non-3D AI-LUTs for other CV tasks: *e.g.* [SR-LUT](https://openaccess.thecvf.com/content/CVPR2021/papers/Jo_Practical_Single-Image_Super-Resolution_Using_Look-Up_Table_CVPR_2021_paper.pdf), MuLUT([paper1](https://link.springer.com/content/pdf/10.1007/978-3-031-19797-0_14), [paper2(extented to image restoration)](https://arxiv.org/pdf/2303.14506.pdf)), [VA-LUT](https://arxiv.org/pdf/2303.00334), [SPLUT](https://arxiv.org/pdf/2207.12987.pdf) (**super-resolution**, non-3D-LUT), [MEFLUT](https://openaccess.thecvf.com/content/ICCV2023/papers/Jiang_MEFLUT_Unsupervised_1D_Lookup_Tables_for_Multi-exposure_Image_Fusion_ICCV_2023_paper.pdf) (**multi-exposure fusion**, 1D-LUT), [SA-LuT-Nets](https://link.springer.com/content/pdf/10.1007/978-3-030-59719-1_22.pdf) (**medical imaging**) *etc.* (Such LUTs may not even involve an interpolation process).
 + Claim to be AI-LUT, but use other mechanism to conduct image-to-image transform: *e.g.* [NILUT](https://arxiv.org/pdf/2306.11920.pdf) (represent LUT transform using MLP(multi-layer perceptron)) *etc*.
 
 # 2. Our algorithm ITM-LUT
