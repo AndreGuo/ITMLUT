@@ -121,7 +121,7 @@ You can cite our paper if you feel this helpful.
     <td>5&times;1</td>
     <td>3&times;36<sup>3</sup></td>
     <td>LUT fusion map</td>
-    <td rowspan="5">uniform</td>
+    <td rowspan="6">uniform</td>
   </tr>
   <tr>
     <td>C</td>
@@ -161,7 +161,20 @@ You can cite our paper if you feel this helpful.
     <td>(<b>33</b>) intensity</td>
     <td>weights &amp; intensity map</td>
   </tr>
-    <tr>
+  <tr>
+    <td>No</td>
+    <td>Underwater Imge Enhancement</td>
+    <td><b>INAM-LUT</b></td>
+    <td>23-Sensors</td>
+    <td><a href="https://www.mdpi.com/1424-8220/23/4/2169" target="_blank" rel="noopener noreferrer">paper</a></td>
+    <td>-</td>
+    <td>CN_XidianU </td>
+    <td>3&times;1</td>
+    <td>3&times;33<sup>3</sup></td>
+    <td>-</td>
+    <td>weights</td>
+  </tr>
+  <tr>
     <td>E</td>
     <td>Tone-mapping</td>
     <td><b>LapLUT</b></td>
