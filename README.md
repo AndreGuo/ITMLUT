@@ -41,7 +41,7 @@ You can cite our paper if you feel this helpful.
 <tbody>
   <tr>
     <td>First AI-LUT</td>
-    <td rowspan="8">Image<br>enhancement<br>/retouching<br></td>
+    <td rowspan="9">Image<br>enhancement<br>/retouching<br></td>
     <td><b>A3DLUT</b></td>
     <td>20-TPAMI</td>
     <td><a href="https://ieeexplore.ieee.org/abstract/document/9206076" target="_blank" rel="noopener noreferrer">paper</a></td>
@@ -106,7 +106,7 @@ You can cite our paper if you feel this helpful.
     <td>ECCV'22</td>
     <td><a href="https://link.springer.com/content/pdf/10.1007/978-3-031-19797-0_12" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td><a href="https://github.com/ImCharlesY/SepLUT" target="_blank" rel="noopener noreferrer">code</a></td>
-    <td>no</td>
+    <td>1 (no self-adaptibility)</td>
     <td>3&times;9<sup>3</sup> or 3&times;17<sup>3</sup></td>
     <td>directly 1D &amp; 3D LUTs</td>
     <td>learned non-linear by 1D LUT</td>
@@ -121,7 +121,7 @@ You can cite our paper if you feel this helpful.
     <td>5&times;1</td>
     <td>3&times;36<sup>3</sup></td>
     <td>LUT fusion map</td>
-    <td rowspan="6">uniform</td>
+    <td rowspan="7">uniform</td>
   </tr>
   <tr>
     <td>C</td>
@@ -134,6 +134,18 @@ You can cite our paper if you feel this helpful.
     <td>3&times;33<sup><b>4</b></sup></td>
     <td>(<b>33</b>) context</td>
     <td>weights &amp; context map</td>
+  </tr>
+  <tr>
+    <td>C &amp E</td>
+    <td><b>AttentionLUT</b></td>
+    <td>24-ArXiv</td>
+    <td><a href="https://arxiv.org/pdf/2401.01569.pdf" target="_blank" rel="noopener noreferrer">paper</a></td>
+    <td>-</td>
+    <td>CN_XianJiaotongU</td>
+    <td>no (donot relay on basic LUT for self-adaptibility)</td>
+    <td>9&times;15&times;33 (represented by Canonical Polyadic tensor decomposition)</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
     <td>E</td>
@@ -175,7 +187,7 @@ You can cite our paper if you feel this helpful.
     <td>weights</td>
   </tr>
   <tr>
-    <td>E</td>
+    <td>C</td>
     <td>Tone-mapping</td>
     <td><b>LapLUT</b></td>
     <td>NeurIPS'23</td>
