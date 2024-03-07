@@ -218,11 +218,11 @@ You can cite our paper if you feel this helpful.
 
 In col. *idea*:
 
-**C** stands for improving the expressiveness of LUT **c**ontent;
+**C** stands for improving the expressiveness of LUT **c**ontent (by new way to generate image-adaptive LUT or introducing new dimension);
 
-**E** stands for making LUT further **e**fficient;
+**E** stands for making LUT further **e**fficient (by special representation of LUT's elements);
 
-**N** stands for setting non-uniform **n**odes.
+**N** stands for setting non-uniform **n**odes (to optimize LUT's interpolation error on image with specific numerical distribution).
 
 **Note that**:
 
