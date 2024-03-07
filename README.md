@@ -170,7 +170,7 @@ You can cite our paper if you feel this helpful.
     <td>-</td>
     <td>CN_XidianU </td>
     <td>3&times;1</td>
-    <td>3&times;33<sup>3</sup></td>
+    <td>3&times;33(?)<sup>3</sup></td>
     <td>-</td>
     <td>weights</td>
   </tr>
