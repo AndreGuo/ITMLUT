@@ -141,7 +141,7 @@ You can cite our paper if you feel this helpful.
     <td>24-ArXiv</td>
     <td><a href="https://arxiv.org/pdf/2401.01569.pdf" target="_blank" rel="noopener noreferrer">paper</a></td>
     <td>-</td>
-    <td>CN_XianJiaotongU</td>
+    <td>CN_SJTU <a href="https://jhc.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer">John Hopcroft Center</a></td>
     <td>no (donot relay on basic LUT for self-adaptibility)</td>
     <td>9&times;15&times;33 (represented by Canonical Polyadic tensor decomposition)</td>
     <td>-</td>
