@@ -143,7 +143,7 @@ You can cite our paper if you feel this overview helpful.
     <td>-</td>
     <td>CN_SJTU <a href="https://jhc.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer">John Hopcroft Center</a></td>
     <td>no (donot relay on basic LUT for self-adaptibility)</td>
-    <td>9&times;15&times;33 (represented by Canonical Polyadic tensor decomposition)</td>
+    <td>9&times;15&times;33 (represented by Canonical Polyadic decomposition)</td>
     <td>-</td>
     <td>-</td>
   </tr>
