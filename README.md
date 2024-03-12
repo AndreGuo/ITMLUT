@@ -145,7 +145,7 @@ You can cite our paper if you feel this overview helpful.
     <td>no (donot relay on basic LUT for self-adaptibility)</td>
     <td>9&times;15&times;33 (represented by Canonical Polyadic decomposition)</td>
     <td>-</td>
-    <td>-</td>
+    <td>feature (to encode Q,K,V tensors)</td>
   </tr>
   <tr>
     <td>E</td>
