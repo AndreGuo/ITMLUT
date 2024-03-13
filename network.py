@@ -58,7 +58,7 @@ class LutNet(nn.Module):
 
         LUTs_b = self.lut_gen_b(weights_b)  # shape: [b, nc, n_dim, n_dim, n_dim]
         LUTs_m = self.lut_gen_m(weights_m)
-        LUTs_d = self.lut_gen_b(weights_d)
+        LUTs_d = self.lut_gen_d(weights_d)
 
         u_vertices = torch.linspace(0, 1, self.n_dim). \
             to(self.device).unsqueeze(0).unsqueeze(0).repeat(img.shape[0], 1, 1)  # shape: [b, 1, n_dim]
