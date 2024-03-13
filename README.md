@@ -295,7 +295,7 @@ Change `line 104` in `test.py` to use other parameters/checkpoint:
 
 ## 2.4 Training code
 
-First, download the training code from [BaiduNetDisk](https://pan.baidu.com/s/18Zw6UJsrAZHw1Hy6cYiPSQ?pwd=2nzj)(code:2nzj) or [GoogleDrive](https://drive.google.com/file/d/1zhIJ3igFIPgmWK9BiBAh5TSYqL4GL7wL/view?usp=drive_link).
+First, download the training code from [BaiduNetDisk](https://pan.baidu.com/s/1mehQcw3iPbONwlBv2VjMKw?pwd=xwgx)(code:xwgx) or [GoogleDrive](https://drive.google.com/file/d/1iqCelXF04hMIXIvMijF7OmVSE2cc5XFK/view?usp=sharing).
 This package contain 5 essential real ITM LUTs used in our own LUT initialization, and other 13 real ITM LUTs (in both N=17/33/65) where you can use any of their combinations to try new LUT initialization.
 
 Then:
