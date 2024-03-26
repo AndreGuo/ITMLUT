@@ -289,8 +289,8 @@ Add below configuration(s) for specific propose:
 
 Change `line 104` in `test.py` to use other parameters/checkpoint:
 
-+ Current `params.pth` is trained on our own ***HDRTV4K*** dataset and ***DaVinci*** degradation model (available [here](https://github.com/AndreGuo/HDRTVDM/#DaVinciSDR)).
-+ Checkpoint `params_TV1K.pth` is trained on popular ***HDRTV1K*** dataset and ***YouTube*** degradation model, it can score 36.14dB the PSNR, 0.9784 the SSIM, 11.447 the $\Delta$ E<sub>itp</sub> and 8.8070 VDP3 ('task'='side-by-side', 'color_encoding'='rgb-bt.2020', 'pixel_per_degree'=60 on 1920*1080 image) on ***HDRTV1K*** testset.
++ Current `params.pth` is trained on our own ***HDRTV4K*** dataset and ***DaVinci*** degradation model (available [here](https://github.com/AndreGuo/HDRTVDM/#DaVinciSDR)) (TODO: some little error with this ckpt, we'll re-upload it within 1 week).
++ Checkpoint `params_TV1K.pth` is trained on popular ***HDRTV1K*** dataset and ***YouTube*** degradation model, it can score 36.69dB the PSNR, 0.9811 the SSIM, 10.194 the $\Delta$ E<sub>itp</sub> and 8.9122 VDP3 ('task'='side-by-side', 'color_encoding'='rgb-bt.2020', 'pixel_per_degree'=60 on 1920*1080 image) on ***HDRTV1K*** testset.
 + We will later release more interesting checkpoint(s).
 
 ## 2.4 Training code
