@@ -308,7 +308,8 @@ cd ITMLUT_train/codes
 python3 train.py -opt options/test/test_Net.yml
 ```
 
-You can modify training configuration e.g. #basicLUTs and LUTsize at `codes/options/test/test_Net.yml`.
++ You can modify training configuration e.g. #basicLUTs and LUTsize at `codes/options/test/test_Net.yml`.
++ Rename any aother LUT in `codes/real_luts/other_luts` to e.g. `2_17.cube` in `codes/real_luts` to try new initialization, remenber to delete the first row (str) when using other commercial LUT(s).
 
 ## 2.5 Changelog
 
