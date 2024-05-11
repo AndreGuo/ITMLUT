@@ -195,7 +195,7 @@ You can cite our paper if you feel this overview helpful.
     <td>-</td>
     <td>CN_HUST  &amp; <a href="https://www.dji.com/" target="_blank" rel="noopener noreferrer">DJI Innovation</a></td>
     <td>3&times;1</td>
-    <td>3&times;33(?)<sup>3</sup></td>
+    <td>3&times;33<sup>3</sup></td>
     <td>-</td>
     <td>weight map (of each interpolated image)</td>
   </tr>
